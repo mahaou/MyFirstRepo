@@ -1,0 +1,13 @@
+name: My Workflow
+on: 
+  push:
+    branches: [main]
+  schedule:
+    - cron: 
+  workflow_dispatch:
+    inputs:
+jobs: My First Job
+  runs-on : ubuntu_latest
+  stages :
+    - 
+    
